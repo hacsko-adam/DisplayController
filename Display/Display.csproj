@@ -60,6 +60,9 @@
     <Compile Include="Resource1.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resources" />
     <EmbeddedResource Include="Resource1.resources" />
   </ItemGroup>
